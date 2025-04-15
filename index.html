@@ -4,11 +4,216 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>E-Academy - Home</title>
+    <link rel="shortcut icon" href="./images/logo/google.png" type="image/x-icon">
+
+    <!-- Style sheets -->
+    <link rel="stylesheet" href="./css/style.css" type="text/css">
+    <link rel="stylesheet" href="./css/home.css">
+
+    <!-- Font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 </head>
 
 <body>
-    Welcome to git and github!
+
+    <!-- Header -->
+    <header>
+        <div class="wrapper">
+            <nav>
+                <h1>E-Academy</h1>
+                <ul>
+                    <li><a href="#" class="active">home</a></li>
+                    <li><a href="./index.html#about-us">about</a></li>
+                    <li><a href="#">courses</a></li>
+                    <li><a href="#">blog</a></li>
+                    <li><a href="#">contact</a></li>
+                </ul>
+            </nav>
+            <section id="banner">
+                <h1>Education Free Online Training Courses</h1>
+                <p>Libris vivendo eloquentiam ex ius, nec id splendide abhorreant, eu pro alii error homero.</p>
+                <a href="" class="primary-btn">get started</a>
+            </section>
+
+        </div>
+    </header>
+
+    <main>
+
+        <!-- About us -->
+        <section id="about-us">
+            <div class="wrapper">
+                <div class="about-children about-left-container">
+                    <div class="heading-container">
+                        <h1>About us</h1>
+                        <div class="heading-underline"></div>
+                    </div>
+                    <p>It is a long established fact that a reader will be distracted by the readable content of a page
+                        when looking at its layout. The point of using Lorem Ipsum is that it has a more-o</p>
+                    <a href="" class="secondary-btn">read more</a>
+                </div>
+                <div class="about-children about-right-container">
+                    <img src="./images/home/about.png" alt="About E-Academy">
+                </div>
+            </div>
+        </section>
+
+        <!-- Explore courses -->
+        <section id="explore-courses">
+            <div class="wrapper">
+                <div class="explore-heading-container">
+                    <h1>Explore Courses</h1>
+                    <p>do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
+                    </p>
+                </div>
+                <div class="explore-card-container">
+                    <div class="carousel-indocator carousel-indocator-prev">
+                        <i class="fa-solid fa-chevron-left"></i>
+                    </div>
+                    <div class="carousel-indocator carousel-indocator-next">
+                        <i class="fa-solid fa-chevron-right"></i>
+                    </div>
+                    <div class="explore-card explore-card-one">
+                        <div class="card-image-container">
+                            <img src="./images/home/card-one.png" alt="E-Academy HTML Course">
+                        </div>
+                        <div class="card-content-container">
+                            <h2>Introduction to CSS</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est, voluptas.</p>
+                        </div>
+                    </div>
+                    <div class="explore-card explore-card-two">
+                        <div class="card-image-container">
+                            <img src="./images/home/card-two.png" alt="E-Academy CSS Course">
+                        </div>
+                        <div class="card-content-container">
+                            <h2>Introduction to CSS</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est, voluptas.</p>
+                        </div>
+                    </div>
+                    <div class="explore-card explore-card-three">
+                        <div class="card-image-container">
+                            <img src="./images/home/card-three.png" alt="E-Academy PHP Course">
+                        </div>
+                        <div class="card-content-container">
+                            <h2>Introduction to CSS</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est, voluptas.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Our blog -->
+        <section id="our-blog">
+            <div class="wrapper">
+                <div class="our-blog-heading-container">
+                    <h1>Our Blog</h1>
+                    <p>It is a long established fact that a reader will be distracted by the readable content of a page
+                    </p>
+                </div>
+                <div class="our-blog-content-container">
+                    <div class="our-blog-content-children our-blog-content-left-container">
+                        <h1>Our Blog</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam minus quidem at cumque
+                            nostrum, enim sit ab repellendus voluptates, eius deserunt, vero nisi consequuntur optio
+                            modi magnam voluptatum maiores quae?</p>
+                        <a href="" class="primary-btn">Readmore</a>
+                    </div>
+                    <div class="our-blog-content-children our-blog-content-right-container">
+                        <img src="./images/home/blog.png" alt="E-Academy courses blog">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact us -->
+        <section id="contact-us">
+            <div class="wrapper">
+                <div class="contact-us-heading-container">
+                    <h1>Contact Us</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                    </p>
+                </div>
+                <div class="contact-us-info-container">
+                    <div class="contact-children contact-info-left-container">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3930.013144286666!2d78.14627977561234!3d9.932862874185211!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b00c553a9fb384d%3A0xcc60d2791e24607e!2sIMAGE%20CREATIVE%20EDUCATION-2D%263D%20Animation%7CVFX%7CDigital%20Video%20Production%20Course%20in%20Madurai%20%7C%20UI%20UX%20Course%20%7C%20Fullstack%20Course!5e0!3m2!1sen!2sin!4v1744354756452!5m2!1sen!2sin"
+                            style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+
+                    <div class="contact-children contact-info-right-container">
+                        <form action="">
+                            <input type="text" name="" id="" placeholder="Name" required>
+
+                            <input type="tel" name="" id="" placeholder="Phone number" required>
+
+                            <input type="email" name="" id="" placeholder="Email" required>
+
+                            <textarea name="" id="" placeholder="Message" required></textarea>
+
+                            <input type="submit" value="SEND" class="primary-btn">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="wrapper">
+            <div class="footer-links-container">
+                <div class="footer-link-container">
+                    <h1>About</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptate ex esse id ipsam ullam
+                        voluptates unde maiores commodi.</p>
+                </div>
+                <div class="footer-link-container">
+                    <h1>Menu</h1>
+                    <ul>
+                        <li><a href="./index.html">Home</a></li>
+                        <li><a href="./index.html">About</a></li>
+                        <li><a href="./index.html">Courses</a></li>
+                        <li><a href="./index.html">Blog</a></li>
+                        <li><a href="./index.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-link-container">
+                    <h1>Useful Link</h1>
+                    <ul>
+                        <li><a href="./index.html">LINK 1</a></li>
+                        <li><a href="./index.html">LINK 2</a></li>
+                        <li><a href="./index.html">LINK 3</a></li>
+                        <li><a href="./index.html">LINK 4</a></li>
+                        <li><a href="./index.html">LINK 5</a></li>
+                    </ul>
+                </div>
+                <div class="footer-link-container">
+                    <h1>Contact us</h1>
+                    <ul>
+                        <li><a href="#"><span><i class="fa-solid fa-location-dot"></i></span><span>Address :
+                                    Madurai</span></a></li>
+                        <li><a href="#"><span><i class="fa-solid fa-phone"></i></span><span>Call : +01
+                                    1234567890</span></a></li>
+                        <li><a href="#"><span><i class="fa-solid fa-envelope"></i></span><span>Email :
+                                    demo@gmail.com</span></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-copyrights-container">
+                <p>2025 All Rights Reserved. Developed by <a href="#">Image Creative Education - Madurai</a></p>
+            </div>
+        </div>
+    </footer>
+
+
 </body>
 
 </html>
