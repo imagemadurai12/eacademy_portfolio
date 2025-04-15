@@ -25,9 +25,11 @@ body {
     --fw-700: 700;
     --fs-italic: italic;
     --text-black: RGB(37, 37, 37);
-    --text-orange: RGB(251, 104, 24);
+    /* --text-orange: RGB(251, 104, 24); */
+    --text-orange: navy;
     --text-white: RGB(255, 255, 255);
-    --bg-orange: RGB(251, 104, 24);
+    /* --bg-orange: RGB(251, 104, 24); */
+    --bg-orange: navy;
     --bg-black: RGB(37, 37, 37);
     --bg-white: RGB(255, 255, 255);
 }
